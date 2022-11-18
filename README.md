@@ -43,3 +43,6 @@ setContent(string content) - Sets the textual or HTML content for the Notificati
 setShowTime(int milliseconds) - Sets the millisecond show time to display the Notification
 show() - Renders the Notification object
 ```
+
+## Example
+![image](https://user-images.githubusercontent.com/17110935/202767693-2e124fbc-16e0-45ce-97ca-e2c367fa1a00.png)
