@@ -44,5 +44,7 @@ setShowTime(int milliseconds) - Sets the millisecond show time to display the No
 show() - Renders the Notification object
 ```
 
-## Example
+## Examples
 ![image](https://user-images.githubusercontent.com/17110935/202767693-2e124fbc-16e0-45ce-97ca-e2c367fa1a00.png)
+![image](https://user-images.githubusercontent.com/17110935/202768467-2b6df87b-8e94-4ba3-a3ad-77e62392a9d7.png)
+
