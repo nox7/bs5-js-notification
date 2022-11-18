@@ -8,6 +8,7 @@
 	flex-direction: column-reverse;
 	padding-bottom:75px;
 	z-index:1200;
+	pointer-events:none;
 }
 
 .js-alert-notification{
