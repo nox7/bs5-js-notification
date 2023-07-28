@@ -25,7 +25,7 @@ class BSNotification {
 
 	constructor() {}
 
-	getDOM(){
+	BuildDOM(){
 		const template = document.createElement("div");
 		template.classList.add("js-alert-notification");
 		template.classList.add("alert");
@@ -45,19 +45,19 @@ class BSNotification {
 		return template;
 	}
 
-	setType(notifType){
+	SetType(notifType){
 		this.alertType = notifType;
 	}
 
-	setContent(content){
+	SetContent(content){
 		this.content = content;
 	}
 
-	setShowTime(milliseconds){
+	SetShowTime(milliseconds){
 		this.showTime = milliseconds;
 	}
 
-	show(){
+	Show(){
 		this.dom = this.getDOM();
 		this.bsAlert = new bootstrap.Alert(this.dom);
 		BSNotification.notificationContainer.append(this.dom);
